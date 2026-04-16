@@ -31,7 +31,6 @@ func main() {
 	for _, entry := range mapping {
 		if number%entry.denominator == 0 {
 			fmt.Println(entry.text)
-
 		}
 	}
 }
